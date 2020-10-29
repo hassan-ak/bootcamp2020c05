@@ -1,6 +1,13 @@
-// Step02
+// Step03
 import React from 'react'
 
-const ValueContext = React.createContext(45);
+const ValueContext = React.createContext(45, ()=>{});
 
 export default ValueContext;
+
+// // Step02
+// import React from 'react'
+
+// const ValueContext = React.createContext(45);
+
+// export default ValueContext;
