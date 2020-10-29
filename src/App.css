@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: rgb(215, 231, 245);
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  h1{
+    text-align: center;
+  }
+  
+  h3, h4{
+    text-align: center;
+  }
+
+  .container1{
+    background-color: white;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  .without{
+    background-color: rgb(215, 231, 245);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .with{
+    background-color: rgb(215, 231, 245);
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .button button{
+    background-color: rgba(29, 168, 29, 0.651);
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .one, .three{
+    border-style: dotted;
+    padding: 5px;
+  }
+
+  .two{
+    border-style: dotted;
+    margin-top: 20px;
+    padding: 5px;
+  }
+
+  .cu, .rd{
+    background-color: rgb(215, 231, 245);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .button2{
+    display: flex;
+  }
+
+  .button2 button{
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 50%;
+  }
+
+  .add{
+    background-color: rgb(79, 105, 219);
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  
+  .minus{
+    background-color: rgb(194, 120, 98);
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .container2{
+    background-color: white;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
